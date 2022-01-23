@@ -21,24 +21,32 @@ body {
 #display {
     resize: none;
     border: none;
-    
-}
-
-.fours {
-    float: left;
+    width: 100%;
+    overflow: auto;
+    height: 50px;
+    white-space: initial;
 }
 
 .numbers {
     margin: auto;
     padding: 10px;
     width: fit-content;
+    text-overflow: ellipsis;
+    
+}
+
+.fours.buttons {
+    float: left;
 }
 
 .buttons {
-    border: 1px solid blue;
+    border: 1px solid rgb(20, 20, 20);
     width: fit-content;
     min-width: 50px;
+    min-height: 50px;
     text-align: center;
     font-size: xx-large;
     cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 100%;
 }
