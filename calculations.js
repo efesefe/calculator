@@ -16,6 +16,7 @@ function press(pressed) {
     {
         clears();
         outputRequested = false;
+        lastOperation = operationsEnum.operationzero;
     }
     var inp = document.getElementById('display');
     if(resultDisplay)

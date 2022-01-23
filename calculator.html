@@ -9,43 +9,45 @@
     <title>Calculator</title>
 </head>
 <body>
-    <div class="container">
-        <div class="screen">
-            <p id="display">0</p>
-            <p id="result">0</p>
-        </div>
-        <div class="numbers">
-
-            <div class="fours">
-                <button class="buttons"  onclick="clears()">C</button>
+    <div class="contain-everything">
+        <div class="container">
+            <div class="screen">
+                <p id="display">0</p>
+                <p id="result">0</p>
             </div>
-
-            <div class="fours">
-                <button class="buttons"  onclick="press('1')">1</button>
-                <button class="buttons"  onclick="press('2')">2</button>
-                <button class="buttons"  onclick="press('3')">3</button>
-                <button class="buttons"  onclick="calculate(0)">+</button>
-            </div>
-
-            <div class="fours">
-                <button class="buttons" onclick="press('4')">4</button>
-                <button class="buttons" onclick="press('5')">5</button>
-                <button class="buttons" onclick="press('6')">6</button>
-                <button class="buttons" onclick="calculate(1)">-</button>
-            </div>
-
-            <div class="fours">
-                <button class="buttons" onclick="press('7')">7</button>
-                <button class="buttons" onclick="press('8')">8</button>
-                <button class="buttons" onclick="press('9')">9</button>
-                <button class="buttons" onclick="calculate(2)">X</button>
-            </div>
-
-            <div class="fours">
-                <button class="buttons" onclick="press('0')">0</button>
-                <button class="buttons" onclick="press('.')">.</button>
-                <button class="buttons" onclick="calculate(3)">/</button>
-                <button class="buttons" onclick="equals()" style="background-color: red; color: white;">=</button>
+            <div class="numbers">
+    
+                <div class="fours">
+                    <button class="buttons"  onclick="clears()">C</button>
+                </div>
+    
+                <div class="fours">
+                    <button class="buttons"  onclick="press('1')">1</button>
+                    <button class="buttons"  onclick="press('2')">2</button>
+                    <button class="buttons"  onclick="press('3')">3</button>
+                    <button class="buttons"  onclick="calculate(0)">+</button>
+                </div>
+    
+                <div class="fours">
+                    <button class="buttons" onclick="press('4')">4</button>
+                    <button class="buttons" onclick="press('5')">5</button>
+                    <button class="buttons" onclick="press('6')">6</button>
+                    <button class="buttons" onclick="calculate(1)">-</button>
+                </div>
+    
+                <div class="fours">
+                    <button class="buttons" onclick="press('7')">7</button>
+                    <button class="buttons" onclick="press('8')">8</button>
+                    <button class="buttons" onclick="press('9')">9</button>
+                    <button class="buttons" onclick="calculate(2)">X</button>
+                </div>
+    
+                <div class="fours">
+                    <button class="buttons" onclick="press('0')">0</button>
+                    <button class="buttons" onclick="press('.')">.</button>
+                    <button class="buttons" onclick="calculate(3)">/</button>
+                    <button class="buttons" onclick="equals()" style="background-color: red; color: white;">=</button>
+                </div>
             </div>
         </div>
     </div>
