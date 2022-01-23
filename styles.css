@@ -1,0 +1,44 @@
+body {
+    background-color: silver;
+}
+
+.container {
+    width: 50%;
+    position: fixed;
+    align-items: center;
+    border: 1px solid green;
+}
+
+.screen {
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    background-color: snow;
+    width: 50%;
+    
+}
+
+#display {
+    resize: none;
+    border: none;
+    
+}
+
+.fours {
+    float: left;
+}
+
+.numbers {
+    margin: auto;
+    padding: 10px;
+    width: fit-content;
+}
+
+.buttons {
+    border: 1px solid blue;
+    width: fit-content;
+    min-width: 50px;
+    text-align: center;
+    font-size: xx-large;
+    cursor: pointer;
+}
